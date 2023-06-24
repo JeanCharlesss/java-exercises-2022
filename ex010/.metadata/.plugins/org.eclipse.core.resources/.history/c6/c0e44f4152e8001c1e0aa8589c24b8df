@@ -1,0 +1,14 @@
+import java.util.*;
+public class Taboada {
+	public static void main (String [] args) {
+		int n, resultado, cont1=0,cont2=0;
+		while (cont1<=10) {
+			for (cont2=0;cont2<=10;cont2++){
+				resultado = cont1 * cont2;
+				System.out.println(cont2+" x "+cont1+" = "+resultado);
+			
+			}
+			cont1++;
+	    }
+	}
+}

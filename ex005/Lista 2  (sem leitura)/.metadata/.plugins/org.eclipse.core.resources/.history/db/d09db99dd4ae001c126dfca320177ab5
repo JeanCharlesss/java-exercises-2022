@@ -1,0 +1,10 @@
+
+public class Gasolina {
+	public static void main (String[] args) {
+		double pg,x,precoAtual;
+		pg=7.4;
+		x=4;
+		precoAtual=pg/100*x;
+		System.out.println("A Gasolina atual vale "+precoAtual);
+	}
+}

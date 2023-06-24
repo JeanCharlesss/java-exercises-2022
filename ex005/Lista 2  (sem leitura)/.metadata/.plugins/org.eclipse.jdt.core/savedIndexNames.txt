@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+E:\PA\STTW1\Lista 2\.metadata\.plugins\org.eclipse.jdt.core
+3127477741.index
+161527986.index
+3092446199.index
+2538296875.index
+1865797976.index
+1250058889.index
+488577641.index
+3405522318.index

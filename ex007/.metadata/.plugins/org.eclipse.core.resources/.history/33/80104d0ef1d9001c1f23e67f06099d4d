@@ -1,0 +1,65 @@
+import java.util.Scanner;
+public class Buffet {
+	public static void main (String [] args ) {
+		Scanner in = new Scanner (System.in);
+		int salao, decoracao, orcamento;
+		try {
+		System.out.println("Digite o nï¿½mero do salï¿½o que voce deseja:"
+				+ "\n"
+				+ "1 - Ouro"
+				+ "\n"
+				+ "2 - Diamante"
+				+ "\n");
+	salao = in.nextInt();
+	switch (salao) {
+	case 1 :
+		salao = 370;
+		System.out.println("Este salï¿½o custa R$"+salao+" reais.");
+		break;
+	case 2 :
+		salao = 520;
+		System.out.println("Este salï¿½o custa R$"+salao+" reais.");
+		break;
+	default :
+		System.out.println ("Salï¿½o desconhecido.");
+	}
+	System.out.println("Digite o nï¿½mero da decoraï¿½ï¿½o que vocï¿½ deseja:"
+			+ "\n"
+			+ "1 - Amarilis"
+			+ "\n"
+			+ "2 - Violeta"
+			+ "\n"
+			+ "3 - Orquï¿½dea"
+			+ "\n"
+			+ "4 - Lï¿½rio"
+			+ "\n");
+	decoracao = in.nextInt();
+	switch (decoracao) {
+	case 1 :
+		decoracao = 250;
+		System.out.println("Esta decoraï¿½ï¿½o custa R$"+decoracao+" reais");
+		break;
+	case 2 :
+		decoracao = 250;
+		System.out.println("Esta decoraï¿½ï¿½o custa R$"+decoracao+" reais");
+		break;
+	case 3 :
+		decoracao = 360;
+		System.out.println("Esta decoraï¿½ï¿½o custa R$"+decoracao+" reais");
+		break;
+	case 4 :
+		decoracao = 360;
+		System.out.println("Esta decoraï¿½ï¿½o custa R$"+decoracao+" reais");
+		break;
+	default : 
+		System.out.println("Decoraï¿½ï¿½o desconhecida");
+	}
+	orcamento = salao + decoracao;
+	System.out.println("Seu orï¿½amento final ï¿½ R$"+orcamento);
+	} catch (Exception erro) {
+		System.out.println("Digite apenas os números indicados. \n"
+				+"Erro :"+erro+"\n"
+				+"-------------execute novamente-------------");
+	}
+	}
+}

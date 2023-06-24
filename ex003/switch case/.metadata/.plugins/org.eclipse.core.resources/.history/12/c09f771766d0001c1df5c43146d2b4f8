@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Imc {
+	public static void main (String [] args) {
+		Scanner in = new Scanner (System.in);
+		int peso, altura, imc;
+		System.out.println("Digite seu peso: ");
+		peso = in.nextInt();
+		System.out.println("Digite sua altura: ");
+		altura = in.nextInt();
+		imc = (altura*altura)/peso;
+		if (imc < 17) {
+			System.out.println("Muito abaixo do peso.");
+		} else if (imc < 18.49) {
+			System.out.println("Abaixo do peso.");
+		} else if (imc < 24.99) {
+			System.out.println("Peso normal.");
+		} else if (imc < 34.99) {
+			System.out.println("Obesidade I");
+		} else if (imc < 39.99) {
+			System.out.println("Obesidade II (severa).");
+		} else if (imc > 40) {
+			System.out.println("Obesidade III (mórbida).");
+		} else {
+			System.out.println("Peso ou altura inválida.");
+		}
+	}
+}

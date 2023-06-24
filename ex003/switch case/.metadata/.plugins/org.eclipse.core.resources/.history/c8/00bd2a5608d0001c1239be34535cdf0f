@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Buffet {
+	public static void main (String [] args ) {
+		Scanner in = new Scanner (System.in);
+		int salao, decoracao, orcamento;
+		System.out.println("Digite o número do salão que voce deseja:"
+				+ "\n"
+				+ "1 - Ouro"
+				+ "\n"
+				+ "2 - Diamante");
+	salao = in.nextInt();
+	switch (salao) {
+	case 1 :
+		salao = 370;
+		System.out.println("Este salão custa R$370 reais.");
+		break;
+	case 2 :
+		salao = 520;
+		System.out.println("Este salão custa R$520 reais.");
+		break;
+	default :
+		System.out.println ("Salão desconhecido.");
+	}
+	}
+}

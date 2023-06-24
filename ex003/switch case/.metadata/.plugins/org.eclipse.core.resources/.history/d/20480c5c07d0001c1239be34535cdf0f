@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Buffet {
+	public static void main (String [] args ) {
+		Scanner in = new Scanner (System.in);
+		int salao, decoracao, orcamento;
+		System.out.println("Digite qual salão você gostaria de escolha"
+				+ "\n"
+				+ "Ouro"
+				+ "\n"
+				+ "Diamante");
+	}
+}

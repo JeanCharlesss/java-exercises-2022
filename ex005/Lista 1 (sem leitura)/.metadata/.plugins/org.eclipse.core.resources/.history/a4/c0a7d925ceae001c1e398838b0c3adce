@@ -1,0 +1,11 @@
+
+public class AreaTriangulo {
+	public static void main(String[] args) {
+		int base,altura,area;
+		base=4;
+		altura=2;
+		area = altura*base;
+		System.out.println("A área do triangulo é"+area);
+	}
+
+}

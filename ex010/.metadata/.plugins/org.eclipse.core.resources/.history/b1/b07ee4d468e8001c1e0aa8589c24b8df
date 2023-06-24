@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Altura {
+	public static void main (String [] args) {
+		int idade,i=1,cIdoso=0,cYoung=0,cPerson=0,pPerson=0,maiorIdade=0,menorIdade=1000;
+		double peso, altura,cPesoS=0,cPesoI=0,cAltura=0, mediaAltura, pPeso,maiorPeso=0,menorPeso=0;
+		Scanner in = new Scanner (System.in);
+		for (i=1;i<=2;i++) {
+			System.out.println("Digite a idade da "+i+" pessoa:");
+			idade = in.nextInt();
+			System.out.println("Digite a altura da "+i+" pessoa: ");
+			altura = in.nextDouble();
+			System.out.println("Digite o peso da "+i+" pessoa: ");
+			peso = in.nextDouble();
+			if (idade > 50) {
+				cIdoso = cIdoso+ 1;
+			}
+			if (idade <= 20 && idade >= 10) {
+				cYoung = cYoung + 1;
+				cAltura = cAltura + altura;
+			}
+			if (peso <= 40) {
+				cPerson = cPerson + 1;
+			}
+			if (idade >= maiorIdade) {
+				maiorIdade = idade;
+				maiorPeso = peso;
+			}
+			if(idade <= menorIdade) {
+				menorIdade = idade;
+				menorPeso = peso;
+			}
+		}
+		mediaAltura = cAltura / cYoung ;
+		pPeso = 100 / 10 * cPerson;
+		System.out.println("Quantidade de pessos com mais 50 Anos: "+cIdoso+" pessoas");
+		System.out.println("a Média das alturas com idade entre 10 e 20 anos: "+mediaAltura+"m");
+		System.out.println("A porcentagem de pessoas com peso abaixo de 40KG: "+pPeso+"%");
+		System.out.println("O peso da pessoa mais velha:"+maiorPeso+"Kg");
+		System.out.println("O peso da pessoa mais nova:"+menorPeso+"Kg");
+		}
+	}
+	

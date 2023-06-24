@@ -1,0 +1,11 @@
+import java.util.*;
+public class Pares1a200 {
+	public static void main (String [] args) {
+		int i=0;
+		System.out.println("Os números pares de 1 ate 200 são:");
+		while (i<=200) {
+			System.out.println(i);
+			i=1+2;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\P.A\Aulas\tomadededecisao\.metadata\.plugins\org.eclipse.jdt.core
+1384787705.index
+381963103.index
+1858800962.index
+1865797976.index
+4101599736.index

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Idade {
+	public static void main (String []args) {
+		int valor,resultado,i;
+		Scanner in = new Scanner (System.in);
+		System.out.println("Digite o valor para saber a taboada:");
+		valor = in.nextInt();
+		for (i=0;i<=10;i++){
+			resultado = i * valor;
+			System.out.println(valor+" x "+i+" = "+resultado);	
+		}
+		
+	}
+}

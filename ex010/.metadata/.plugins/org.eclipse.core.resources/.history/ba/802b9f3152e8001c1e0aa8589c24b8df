@@ -1,0 +1,14 @@
+import java.util.*;
+public class Taboada {
+	public static void main (String [] args) {
+		int n, resultado, i=0;
+		Scanner in = new Scanner (System.in);
+		System.out.println("Digite o valor para ver a taboada:");
+		n = in.nextInt();
+		for (i=0;i<=10;i++){
+			resultado = n * i;
+			System.out.println(n+" x "+i+" = "+resultado);
+			
+		}
+	}
+}

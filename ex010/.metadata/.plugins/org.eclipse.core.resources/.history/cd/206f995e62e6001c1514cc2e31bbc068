@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Idade {
+	public static void main (String []args) {
+		int idade, i, crianca=0,jovem=0, adulto=0, idoso=0, teste=0;
+		Scanner in = new Scanner (System.in);
+		for (i=1;i<=15;i++) {
+			System.out.println("Digite sua Idade");
+			idade = in.nextInt();
+			if (idade<= 5) {
+				crianca = crianca + 1;
+			} else if (idade <= 30 && idade >=16) {
+				jovem = jovem + 1;
+			} else if (idade <= 45 && idade >=31) {
+				adulto = adulto + 1;
+			} else if (idade <= 60 && idade >=56) {
+				teste = teste +1;
+			} else {
+				idoso = idoso + 1;
+			}
+		}
+		System.out.println(crianca);
+		System.out.println(jovem);
+		System.out.println(adulto);
+		System.out.println(idoso);
+		System.out.println(teste);
+	}
+}

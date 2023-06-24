@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+E:\Desenvolvimento de Sistema\1 Modulo\PA\Aulas\ex008\.metadata\.plugins\org.eclipse.jdt.core
+2049933709.index
+1865797976.index
+2429112721.index
+1858800962.index
